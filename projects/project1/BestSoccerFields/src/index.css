@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh; 
+  }
+  
+  
+  td {
+    padding: 5px;
+  }
+  
+
+  .Field {
+    width: 300px;
+    height: 300px;
+  }
+
+  .Field h6, h5 {
+    line-height: 0px;
+    align-content: center;
+    font-size: larger;
+  }
+
+  .Field img {
+    text-align: center;
+    height: 150px;
+    width: 150px;
+  }
+
+
+
+  .pink {
+    background: pink;
+  }
+
+  .blue {
+    background: rgb(190, 219, 229);
+  }
+
+  .green {
+    background: rgb(202, 245, 222);
+  }
