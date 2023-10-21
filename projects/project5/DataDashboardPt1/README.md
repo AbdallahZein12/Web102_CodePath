@@ -33,7 +33,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://imgur.com/QwQo28Q.gif' title='Video Walkthrough' alt='Video Walkthrough' />
+![gifpic](https://imgur.com/QwQo28Q.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 Created with IMGUR
