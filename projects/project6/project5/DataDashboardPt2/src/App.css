@@ -1,0 +1,52 @@
+/* Set a root container with a maximum width and centered alignment */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center; /* Center text within the container */
+  background-color: #222; /* Dark background color */
+  color: #fff; /* White text color */
+}
+
+/* Create a heading container with a flex layout for alignment */
+.heading {
+  display: flex;
+  justify-content: center; /* Center the heading horizontally */
+  align-items: center; /* Center the heading vertically */
+  margin-bottom: 2rem; /* Add space below the heading */
+}
+
+/* Style the restaurant list container */
+.restaurant-list {
+  display: flex;
+  flex-wrap: wrap; /* Allow restaurant items to wrap to the next row */
+  justify-content: center; /* Center the restaurant items horizontally */
+  gap: 2rem; /* Add spacing between restaurant items */
+  padding: 1rem; /* Add padding to the container */
+  background-color: #333; /* Dark background color */
+  border: 1px solid #444; /* Slightly darker border */
+  border-radius: 10px; /* Slightly larger rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Slightly darker shadow */
+}
+
+/* Style individual restaurant items */
+.restaurant-item {
+  flex: 0 1 calc(33.33% - 2rem); /* Adjust item width for responsive layout */
+  padding: 1rem; /* Add padding to each item */
+  background-color: #444; /* Slightly darker background color */
+  border: 1px solid #555; /* Darker border color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Slightly darker shadow */
+}
+
+/* Ensure text inside restaurant items is centered */
+.restaurant-item p {
+  text-align: center;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .restaurant-item {
+    flex: 0 1 calc(50% - 2rem); /* Adjust item width for smaller screens */
+  }
+}
