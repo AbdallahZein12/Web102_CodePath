@@ -1,0 +1,92 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+/* Sidenav styles */
+.sidenav {
+  height: 20%; /* Adjust the height as needed */
+  width: 100%; /* Make it take the full width of the page */
+  position: fixed;
+  top: 0; /* Place it at the top */
+  left: 0; /* Place it at the left */
+  background-color: #EFEFEF;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+
+  padding-left: 200px;
+  text-align: center;
+  display: flex;
+  text-shadow: #61dafbaa;
+}
+
+ul {
+
+  list-style: none;
+  margin: 25px 50px 75px 30px;
+}
+.menu-item{
+
+  font-size: larger;
+  padding: 0 0 50px;
+  text-align: center;
+  
+}
+
+.menu-item{
+
+  font-size: larger;
+  padding: 0 0 35px;
+  text-align: center;
+  
+}
+
+.menu-header{
+
+  font-weight: bolder;
+  font-size:xx-large
+}
