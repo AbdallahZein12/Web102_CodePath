@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 
-const BreweryList = ({ name, link, city, state, index }) => {
+const RestrauntList = ({ name, link, city, state, index }) => {
   return (
     <tr key={index}>
       <td className="name"><a href={link}>{name}</a></td>
@@ -10,4 +10,4 @@ const BreweryList = ({ name, link, city, state, index }) => {
   );
 };
 
-export default BreweryList;
+export default RestrauntList;
